@@ -1,0 +1,31 @@
+PODS:
+  - React (0.58.3):
+    - React/Core (= 0.58.3)
+  - React/Core (0.58.3):
+    - yoga (= 0.58.3.React)
+  - TwilioVideo (2.7.0)
+  - yoga (0.58.3.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - TwilioVideo
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TwilioVideo
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
+
+SPEC CHECKSUMS:
+  React: d099597d6ba7001f0219dbc48532b63cfd8d0eca
+  TwilioVideo: 847eb873d3d67f068bbd50486391be94d9878b4d
+  yoga: 220e7595ec3cfe80c5ce02a0d0881be66b405e81
+
+PODFILE CHECKSUM: e783cca498a40ecb2003b192555a3f975fd85010
+
+COCOAPODS: 1.6.0
